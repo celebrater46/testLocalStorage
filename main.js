@@ -16,3 +16,11 @@ storage['test3'] = 'seiko-chan';
 // console.log(storage.getItem('test'));
 // console.log(storage.test2);
 // console.log(storage['test3']);
+
+const one = document.getElementById("one");
+const two = document.getElementById("two");
+const three = document.getElementById("three");
+
+one.innerHTML = storage.getItem("test");
+two.innerHTML = storage.getItem("test2");
+three.innerHTML = storage.getItem("test3");
