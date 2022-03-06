@@ -8,14 +8,15 @@ const storage = localStorage;
  */
 storage.setItem('test', 'shirogane');
 storage.test2 = 'hideru';
-storage['test3'] = 'seiko-chan';
+storage['test3'] = false; // string
 
 /**
  * 値の取り出し方
  */
-// console.log(storage.getItem('test'));
-// console.log(storage.test2);
-// console.log(storage['test3']);
+console.log(storage.getItem('test'));
+console.log(storage.test2);
+console.log(storage['test3']);
+console.log(typeof storage.test3);
 
 const one = document.getElementById("one");
 const two = document.getElementById("two");
