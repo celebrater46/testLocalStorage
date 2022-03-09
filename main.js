@@ -17,6 +17,7 @@ console.log(storage.getItem('test'));
 console.log(storage.test2);
 console.log(storage['test3']);
 console.log(typeof storage.test3);
+console.log(storage.none); // undefined
 
 const one = document.getElementById("one");
 const two = document.getElementById("two");
